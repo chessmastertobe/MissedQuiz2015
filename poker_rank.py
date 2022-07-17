@@ -16,8 +16,8 @@ for line in f:
     h2 = Hand(input[-5:])
 
     if h1.get_rank() > h2.get_rank():
-        print "black wins"
+        print ("black wins")
     if h2.get_rank() > h1.get_rank():
-        print "white wins"
+        print ("white wins")
     if h1.get_rank() == h2.get_rank():
-        print "tie"
+        print ("tie")
