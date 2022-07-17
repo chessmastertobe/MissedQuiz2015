@@ -3,7 +3,7 @@ from Class import *
 
 
 import sys
-inFile = sys.argv[2]
+inFile = sys.argv["1"]
 
 f = open(inFile, "r")
 
